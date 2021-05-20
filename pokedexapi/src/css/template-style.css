@@ -362,7 +362,8 @@ body {
     padding: 1rem 0;
   }
   .logo img {
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 300px;
     width: 100%;
   }
@@ -1114,7 +1115,8 @@ body {
   /* Forms */
   .buscador {
     width: 30% !important;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
   form.customform input, form.customform textarea, form.customform select {
     background: rgba(0, 0, 0, 0.03) none repeat scroll 0 0;
@@ -1162,7 +1164,7 @@ body {
       }
       .logo {
         max-width: 250px;
-        margin: 0 auto;
+        margin: auto;
       }
       .nav-text {
         color: #fff;
@@ -2086,7 +2088,7 @@ body {
   .logo img {
     margin: 0;
     max-width: 900px;
-    position: relative;
+    position: center;
     top: 15px;
     width: 100%;
   }
@@ -2442,7 +2444,7 @@ body {
       opacity: 1;
     }
     .logo img {
-      margin: 0 auto;
+      margin: auto;
       max-width: 220px;
     }
     .logo img.logo-before {
