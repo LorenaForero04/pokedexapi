@@ -27,10 +27,11 @@
               "src/assets"
             ],
             "styles": [
+              "src/css/template-style.css",
               "src/css/components.css",
               "src/css/icons.css",
               "src/css/responsee.css",
-              "src/css/template-style.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
