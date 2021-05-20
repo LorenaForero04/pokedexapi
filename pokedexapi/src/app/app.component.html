@@ -30,18 +30,18 @@
         </div>
 
         <!-- Ordenar por -->
-
-        <div class="dropdown text-center">
-          <br><br>
-          <button class="btn btn-warning dropdown-toggle text-l-size-20" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <span class="iconify text-l-size-20" data-icon="mdi:pokeball" data-inline="true"></span>
-            Ordenar por
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
+        <br>
+        <div class="ordenar input-group text-center">
+          <div class="input-group-prepend btn btn-warning">
+            <span class="iconify text-l-size-30" data-icon="mdi:pokeball" data-inline="true"></span>
           </div>
+          <select class="custom-select btn btn-warning text-l-size-20" id="inputGroupSelect01">
+            <option selected>Ordenar por:</option>
+            <option value="1">Número inferior</option>
+            <option value="2">Número superior</option>
+            <option value="3">A-Z</option>
+            <option value="3">Z-A</option>
+          </select>
         </div>
       </header>
 
