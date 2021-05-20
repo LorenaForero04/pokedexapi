@@ -69,6 +69,9 @@ jQuery(document).ready(function($) {
     autoplayTimeout: 4000
   });    
   
+  $(document).ready(function() {
+    $(".dropdown-toggle").dropdown();
+  });
   
   // Sticky Nav Bar
   $(window).scroll(function() {
