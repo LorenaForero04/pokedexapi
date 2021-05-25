@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { PokemonesComponent } from './controlador/pokemones.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PokemonesComponent
   ],
   imports: [
     BrowserModule,
